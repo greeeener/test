@@ -21,6 +21,7 @@ bool solution(int x) {
 int main() {
     int x = 29;
     int y = 18;
+    int z = 108;
 
     if (solution(x))
         cout << "29는 하샤드 수입니다." << endl;
@@ -31,5 +32,10 @@ int main() {
         cout << "18은 하샤드 수입니다." << endl;
     else
         cout << "18은 하샤드 수가 아닙니다." << endl;
+
+    if (solution(z))
+        cout << "108은 하샤드 수입니다." << endl;
+    else
+        cout << "108은 하샤드 수가 아닙니다." << endl;
 
 }
