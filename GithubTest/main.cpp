@@ -24,18 +24,18 @@ int main() {
     int z = 108;
 
     if (solution(x))
-        cout << "29는 하샤드 수입니다." << endl;
+        cout << "harshad : " << x << endl;
     else
-        cout << "29는 하샤드 수가 아닙니다." << endl;
+        cout << "harshad : " << x << endl;
 
     if(solution(y))
-        cout << "18은 하샤드 수입니다." << endl;
+        cout << "harshad : " << y << endl;
     else
-        cout << "18은 하샤드 수가 아닙니다." << endl;
+        cout << "harshad : " << y << endl;
 
     if (solution(z))
-        cout << "108은 하샤드 수입니다." << endl;
+        cout << "harshad : " << z << endl;
     else
-        cout << "108은 하샤드 수가 아닙니다." << endl;
+        cout << "harshad : " << z << endl;
 
 }
